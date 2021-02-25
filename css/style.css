@@ -1,0 +1,175 @@
+
+body {
+    min-width: 100%;
+    display: flex;
+    background-color: #994444;
+    flex-direction:  column;
+    align-items: center;
+    margin:0;
+    font-family: 'Pangolin', cursive;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    height: 85px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 3px solid black;
+    position: sticky;
+    top : 0
+}
+
+nav > * {
+    margin: 0 40px 0 0;
+  }
+
+img{
+    border-radius: 15px;
+}
+h2{
+    padding: 0px 5px;
+}
+p
+{
+    font-size: 23px;
+    padding: 10px 5px;
+}
+cite{
+    float:right;
+    font-size: 0.9em;
+}
+.promo_window {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 200px;
+  }
+
+  .promo {
+    background-color: #fdfff5;
+    border: 3px solid #E5CFAC;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 600px;
+  }
+
+.nav_link:link,.nav_link:visited{
+    font-family: "BancoDi";
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap; 
+}
+.nav_link:hover{
+    color: red;
+}
+
+.row_display, .flex_block{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_display{
+    flex-direction: row;
+}
+.flex_block{
+    flex-direction:  column;
+}
+
+.vertical_block , .common_block{
+    margin: 10px 20px;
+    padding: 10px 10px;
+    background-color: #fdfff5;
+    border: 4px solid #661111;
+    border-radius: 30px;
+}
+
+.vertical_block{
+    width: 400px;
+    height: 500px;
+}
+
+
+.common_block{
+    width: 875px;
+}
+
+.gallery{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery > *{
+    padding: 5px;
+}
+  
+.about_features{
+    display:flex;
+    padding: 7px;
+}
+.about_features > *{
+    padding: 5px;
+}
+
+.shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.45);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+
+input[type=submit] {
+    background-color: #aa3333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #551111;
+}
+
+.submit_form {
+    border-radius: 5px;
+    background-color: #eecccc;
+    padding: 20px;
+}
+
+ul{
+    padding-right: 5px;
+    font-size: 23px;
+}
